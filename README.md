@@ -1,5 +1,5 @@
 # Mask-RCNN-Bayesian
-Combine Mask-RCNN and Bayesian network to identify electric equipments.  
+Combine Mask-RCNN and Bayesian network to identify electric equipments. Improve the MAP from 69% to 82%.  
 ## Network Structure:  
 ### bottom layer: Mask-RCNN  
 ![](https://raw.githubusercontent.com/shybeerui/Mask-RCNN-Bayesian/master/mask-rcnn.png)

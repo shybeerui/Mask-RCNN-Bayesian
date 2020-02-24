@@ -263,10 +263,10 @@ for image_id in image_ids:
     '''
 #modify..............................................................................
     # Compute AP
-      AP, precisions, recalls, overlaps =\
-        utils.compute_ap(ngt_bbox, ngt_class_id, ngt_mask,
-                         nngt_bbox, nngt_class_id, nngt_score, nngt_mask)
-      APs[typenum].append(AP)
+    AP, precisions, recalls, overlaps =\
+    utils.compute_ap(ngt_bbox, ngt_class_id, ngt_mask,
+                     nngt_bbox, nngt_class_id, nngt_score, nngt_mask)
+    APs[typenum].append(AP)
       #print(AP)
     '''
     # Compute AP after bayes
